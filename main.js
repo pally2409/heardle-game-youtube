@@ -2,6 +2,7 @@
   var urlString = window.location.href;
   var url = new URL(urlString);
   var category = url.searchParams.get("category");
+  console.log(category);
   var gameName = "Dawg House";
   var startDate = "5/5/2022";
   var e = {
