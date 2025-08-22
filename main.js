@@ -17382,7 +17382,7 @@
       })();
       var Ut = Ft,
         Wt = [1e3, 2e3, 4e3, 7e3, 12e3, 30e3],
-                Bt = [
+        Bt = [
           {
             artist: "Taylor Swift",
             name: "Blank Space",
@@ -17657,7 +17657,7 @@
           { artist: "The Chainsmokers", name: "Closer ft. Halsey", youtubeId: "PT2_F-1esPk" },
           { artist: "The Chainsmokers", name: "Roses ft. ROZES", youtubeId: "mBZdHuZCfic" }
         ];
-        Bt = []
+        Bt = [];
         if (category == "edsheeran") {
           Bt = [
             {
