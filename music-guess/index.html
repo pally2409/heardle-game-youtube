@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <title>Music Wordle (Heardle Clone)</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 2em; }
+    input { padding: 0.5em; margin: 0.5em; }
+    button { padding: 0.5em 1em; }
+    #player { margin: 1em auto; width: 560px; height: 315px; }
+  </style>
+</head>
+<body>
+  <h1>🎵 Music Guessing Game</h1>
+  <div>
+    <label>Song Name:</label>
+    <input id="songInput" type="text" />
+    <label>Artist:</label>
+    <input id="artistInput" type="text" />
+    <button onclick="submitGuess()">Submit</button>
+  </div>
+  <div>
+    <button onclick="playSnippet()">▶️ Play Snippet</button>
+  </div>
+  <div id="message"></div>
+
+  <!-- YouTube player iframe -->
+  <div id="player"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    let player;
+    let currentTry = 0;
+    const durations = [1, 3, 5, 7, 10, 15];
+
+    // List of embeddable YouTube videos known to allow embedding
+    const songs = [
+      { name: "Smells Like Teen Spirit", artist: "Nirvana", youtubeId: "hTWKbfoikeg" },
+      { name: "Africa", artist: "Toto", youtubeId: "FTQbiNvZqaY" },
+      { name: "Take On Me", artist: "A-ha", youtubeId: "djV11Xbc914" },
+      { name: "Billie Jean", artist: "Michael Jackson", youtubeId: "Zi_XLOBDo_Y" },
+      { name: "Hey Ya!", artist: "OutKast", youtubeId: "PWgvGjAhvIw" }
+    ];
+
+    // Choose random song each load
+    const target = songs[Math.floor(Math.random() * songs.length)];
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        height: '315',
+        width: '560',
+        videoId: target.youtubeId,
+        playerVars: {
+          autoplay: 0,
+          controls: 0,
+          modestbranding: 1,
+          rel: 0,
+          enablejsapi: 1
+        },
+        events: {
+          'onReady': () => console.log('Player ready'),
+          'onStateChange': onPlayerStateChange
+        }
+      });
+    }
+
+    function onPlayerStateChange(event) {
+      if (event.data === YT.PlayerState.PLAYING) {
+        setTimeout(() => {
+          player.pauseVideo();
+        }, durations[currentTry] * 1000);
+      }
+    }
+
+    function playSnippet() {
+      if (!player || typeof player.seekTo !== "function") {
+        console.error("Player not ready");
+        return;
+      }
+      if (currentTry >= durations.length) {
+        document.getElementById("message").textContent = "❌ No more tries left!";
+        return;
+      }
+      player.seekTo(0, true);
+      player.playVideo();
+    }
+
+    function submitGuess() {
+      const userSong = document.getElementById("songInput").value.trim().toLowerCase();
+      const userArtist = document.getElementById("artistInput").value.trim().toLowerCase();
+      const actualSong = target.name.toLowerCase();
+      const actualArtist = target.artist.toLowerCase();
+
+      if (userSong === actualSong && userArtist === actualArtist) {
+        document.getElementById("message").textContent = `✅ Correct! 🎉 It was "${target.name}" by ${target.artist}`;
+        player.stopVideo();
+      } else {
+        currentTry++;
+        if (currentTry >= durations.length) {
+          document.getElementById("message").textContent = `❌ Game Over! It was "${target.name}" by ${target.artist}`;
+          player.stopVideo();
+        } else {
+          document.getElementById("message").textContent = `❌ Incorrect. You have ${durations.length - currentTry} tries left.`;
+        }
+      }
+    }
+  </script>
+</body>
+</html>
