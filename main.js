@@ -2,8 +2,7 @@
   var urlString = window.location.href;
   var url = new URL(urlString);
   var category = url.searchParams.get("category");
-  console.log(category);
-  var artist = "Casa Aman";
+  var gameName = "Dawg House";
   var startDate = "5/5/2022";
   var e = {
       262: function (e) {
@@ -17382,6 +17381,31 @@
       })();
       var Ut = Ft,
         Wt = [1e3, 2e3, 4e3, 7e3, 12e3, 30e3],
+        Bt = []
+        if (category == "edsheeran") {
+          Bt = [
+            {
+            artist: "Ed Sheeran",
+            name: "Castle on the Hill",
+            youtubeId: "7Qp5vcuMIlk",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Thinking out loud",
+            youtubeId: "XMPgVZtADtQ",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Shape of You",
+            youtubeId: "liTfD88dbCo",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Don't",
+            youtubeId: "jUsWMGM-zHA",
+          }
+          ]
+        }
         Bt = [
           {
             artist: "Taylor Swift",
@@ -18115,7 +18139,7 @@
           children: (0, on.jsxs)(Nn, {
             children: [
               (0, on.jsx)(En, { onClick: t, size: 30, width: 30, height: 30 }),
-              (0, on.jsx)(zn, { children: artist + " Heardle" }),
+              (0, on.jsx)(zn, { children: gameName + " Heardle" }),
               (0, on.jsx)("a", { href: "#" }),
             ],
           }),
@@ -18178,7 +18202,7 @@
                 children: (0, on.jsx)("p", {
                   children:
                     "Listen to the intro, then find the correct " +
-                    artist +
+                    gameName +
                     " song in the list.",
                 }),
               }),
@@ -18783,7 +18807,7 @@
                     a = "\ud83d\udfe9",
                     i = "\u2b1c",
                     u = "\u2b1b\ufe0f",
-                    l = artist + " - #".concat(r, " \ud83c\udfa7"),
+                    l = gameName + " - #".concat(r, " \ud83c\udfa7"),
                     c = "";
                   return (
                     e.forEach(function (e) {
