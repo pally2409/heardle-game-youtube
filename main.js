@@ -1,4 +1,8 @@
 !(function () {
+  var urlString = window.location.href;
+  var url = new URL(urlString);
+  var category = url.searchParams.get("category");
+  console.log(category);
   var artist = "Casa Aman";
   var startDate = "5/5/2022";
   var e = {
