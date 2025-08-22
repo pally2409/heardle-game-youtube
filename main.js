@@ -17381,32 +17381,7 @@
       })();
       var Ut = Ft,
         Wt = [1e3, 2e3, 4e3, 7e3, 12e3, 30e3],
-        Bt = []
-        if (category == "edsheeran") {
-          Bt = [
-            {
-            artist: "Ed Sheeran",
-            name: "Castle on the Hill",
-            youtubeId: "7Qp5vcuMIlk",
-          },
-          {
-            artist: "Ed Sheeran",
-            name: "Thinking out loud",
-            youtubeId: "XMPgVZtADtQ",
-          },
-          {
-            artist: "Ed Sheeran",
-            name: "Shape of You",
-            youtubeId: "liTfD88dbCo",
-          },
-          {
-            artist: "Ed Sheeran",
-            name: "Don't",
-            youtubeId: "jUsWMGM-zHA",
-          }
-          ]
-        }
-        Bt = [
+                Bt = [
           {
             artist: "Taylor Swift",
             name: "Blank Space",
@@ -17681,6 +17656,31 @@
           { artist: "The Chainsmokers", name: "Closer ft. Halsey", youtubeId: "PT2_F-1esPk" },
           { artist: "The Chainsmokers", name: "Roses ft. ROZES", youtubeId: "mBZdHuZCfic" }
         ];
+        Bt = []
+        if (category == "edsheeran") {
+          Bt = [
+            {
+            artist: "Ed Sheeran",
+            name: "Castle on the Hill",
+            youtubeId: "7Qp5vcuMIlk",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Thinking out loud",
+            youtubeId: "XMPgVZtADtQ",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Shape of You",
+            youtubeId: "liTfD88dbCo",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Don't",
+            youtubeId: "jUsWMGM-zHA",
+          }
+          ];
+        }
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
         for (var n = 0, r = new Array(t); n < t; n++) r[n] = e[n];
