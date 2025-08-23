@@ -17783,8 +17783,209 @@
           name: "Dilliwali Girlfriend",
           youtubeId: "1cDoRqPnCXU",
         }
-      ];
-      }
+        ];
+        } else if (category == "taylorswift") {
+        [
+          {
+            artist: "Taylor Swift",
+            name: "Blank Space",
+            youtubeId: "nAQ_1lTDvPQ",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Style",
+            youtubeId: "WPB3sDqEHlM",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Cruel Summer",
+            youtubeId: "P8T1rUpVdXE",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Shake It Off",
+            youtubeId: "YytmnsOPWyk",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Wildest Dreams",
+            youtubeId: "nkmNsAyqi1I",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Karma",
+            youtubeId: "ZzUJGM40c80",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Bad Blood",
+            youtubeId: "6GiQIh8CfTE",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "22",
+            youtubeId: "JDIos5cPtMI",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Red",
+            youtubeId: "eitR85pl2po",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Love Story",
+            youtubeId: "KrsqPE9SMxo",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "You Belong With Me",
+            youtubeId: "yA3jAcbIzHM",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "All Too Well (10 Minute Version) (Taylor's Version) (From The Vault)",
+            youtubeId: "aPnqx56V8-0",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Bejeweled",
+            youtubeId: "XzKSPRqFg9E",
+          },
+          {
+            artist: "Taylor Swift",
+            name: "Look What You Made Me Do",
+            youtubeId: "_k7hmkf2dvQ",
+          }
+        ];
+        } else if (category == "oldpop") {
+        [
+          {
+            artist: "Backstreet Boys",
+            name: "I Want It That Way",
+            youtubeId: "qjlVAsvQLM8",
+          },
+          {
+            artist: "Spice Girls",
+            name: "Wannabe",
+            youtubeId: "T04FsNh7Lg0",
+          },
+          {
+            artist: "Shakira",
+            name: "Hips Don't Lie",
+            youtubeId: "fNRXD393cfs",
+          },
+          {
+            artist: "Rihanna",
+            name: "Umbrella",
+            youtubeId: "o5iw2ifoHnw",
+          },
+          {
+            artist: "Justin Timberlake",
+            name: "SexyBack",
+            youtubeId: "Cg6IDiTqIUs",
+          },
+          {
+            artist: "Linkin Park",
+            name: "In the End",
+            youtubeId: "d_toKURCt10",
+          },
+          {
+            artist: "Green Day",
+            name: "American Idiot",
+            youtubeId: "NNMUuJWRyxc",
+          },
+          {
+            artist: "AC/DC",
+            name: "Thunderstruck",
+            youtubeId: "v2AC41dglnM",
+          },
+          {
+            artist: "Maroon 5",
+            name: "This Love",
+            youtubeId: "XPpTgCho5ZA",
+          },
+          {
+            artist: "Coldplay",
+            name: "Viva La Vida",
+            youtubeId: "dvgZkm1xWPE",
+          },
+          {
+            artist: "CeeLo Green",
+            name: "Forget You",
+            youtubeId: "4fq_MDgEzRM",
+          },
+          {
+            artist: "ABBA",
+            name: "Dancing Queen",
+            youtubeId: "-sVB91NTa4A",
+          },
+          {
+            artist: "Britney Spears",
+            name: "...Baby One More Time",
+            youtubeId: "kAJz7c97Cyo",
+          },
+          {
+            artist: "Coldplay",
+            name: "Clocks",
+            youtubeId: "3A3hgfstCxE",
+          },
+          {
+            artist: "The Killers",
+            name: "Mr. Brightside",
+            youtubeId: "j8tZs6G_h7U",
+          }
+        ];
+        } else if (category == "newpop") {
+        [
+          { artist: "Taylor Swift", name: "Blank Space", youtubeId: "gir8BEqAutk" },
+          { artist: "Taylor Swift", name: "Cruel Summer", youtubeId: "ic8j13piAhQ" },
+          { artist: "Stephen Sanchez", name: "Until I Found You", youtubeId: "GxldQ9eX2wo" },
+          { artist: "Nicki Minaj", name: "Starships", youtubeId: "sy7HTezsNZk" },
+          { artist: "Pitbull", name: "Give Me Everything", youtubeId: "EPo5wWmKEaI" },
+          { artist: "Pitbull", name: "Fireball", youtubeId: "HMqgVXSvwGo" },
+          { artist: "Doja Cat", name: "Tia Tamera", youtubeId: "o8_d53-1G2o" },
+          { artist: "Chappell Roan", name: "Good Luck Babe", youtubeId: "1RKqOmSkGgM" },
+          { artist: "Cardi B Feat Megan Thee Stallion", name: "WAP", youtubeId: "Wc5IbN4xw70" },
+          { artist: "Taylor Swift", name: "We Are Never Ever Getting Back Together", youtubeId: "j1fsEAF3Xo4" },
+          { artist: "Ed Sheeran", name: "Perfect", youtubeId: "cNGjD0VG4R8" },
+          { artist: "Ed Sheeran", name: "Shape of You", youtubeId: "liTfD88dbCo" },
+          { artist: "Imagine Dragons", name: "Radioactive", youtubeId: "w3viBe2Q0P8" },
+          { artist: "Imagine Dragons", name: "Demons", youtubeId: "pvrkfb1C4tE" },
+          { artist: "Olivia Rodrigo", name: "good 4 u", youtubeId: "tmIO0eSAXrw" },
+          { artist: "Olivia Rodrigo", name: "drivers license", youtubeId: "ttRz03c208g" },
+          { artist: "Lorde", name: "Ribs", youtubeId: "4qaeoz_7cyE" },
+          { artist: "Benson Boone", name: "Beautiful Things", youtubeId: "Oa_RSwwpPaA" },
+          { artist: "Becky G", name: "Shower", youtubeId: "arYQrVEFwHI" },
+          { artist: "One Direction", name: "Steal My Girl", youtubeId: "gnN_jiesIkM" },
+          { artist: "Glass Animals", name: "Heat Waves", youtubeId: "XDjB9E3YtUE" },
+          { artist: "Coldplay", name: "Fix You", youtubeId: "Oncu0bgdcXU" },
+          { artist: "Sam Smith", name: "I'm Not the Only One", youtubeId: "67ibXO8viXE" },
+          { artist: "Olivia Rodrigo", name: "deja vu", youtubeId: "C4hwsb1HPaU" },
+          { artist: "Alan Walker", name: "Faded", youtubeId: "d0eUMnJ5kTA" },
+          { artist: "Doja Cat", name: "Say So", youtubeId: "afkoJu2m9mg" },
+          { artist: "fun. feat. Janelle Monáe", name: "We Are Young", youtubeId: "f_K_0SNaRk0" },
+          { artist: "Taio Cruz", name: "Dynamite", youtubeId: "kJNyjdpT1vo" },
+          { artist: "Sabrina Carpenter", name: "Espresso", youtubeId: "51zjlMhdSTE" },
+          { artist: "Black Eyed Peas", name: "I Gotta Feeling", youtubeId: "OIPmhkzN2ug" },
+          { artist: "Harry Styles", name: "Adore You", youtubeId: "VF-r5TtlT9w" },
+          { artist: "Luis Fonsi & Daddy Yankee (ft. Justin Bieber)", name: "Despacito (Remix)", youtubeId: "TfkP5ubz1z4" },
+          { artist: "OneRepublic", name: "Counting Stars", youtubeId: "tzMGDIU_-ow" },
+          { artist: "Nicki Minaj (feat. Ester Dean)", name: "Super Bass", youtubeId: "LWgS0yMM7z8" },
+          { artist: "Katy Perry", name: "Last Friday Night (T.G.I.F)", youtubeId: "m3IH5arFaQg" },
+          { artist: "Pitbull", name: "Timber ft. Ke$ha", youtubeId: "KwxVP13llSQ" },
+          { artist: "Shawn Mendes & Camila Cabello", name: "Señorita", youtubeId: "dFp_b5DPIIo" },
+          { artist: "Vance Joy", name: "Riptide", youtubeId: "lYoWuaw5nSk" },
+          { artist: "Taylor Swift", name: "...Ready For It?", youtubeId: "wIft-t-MQuE" },
+          { artist: "Kendrick Lamar", name: "Not Like Us", youtubeId: "3wkNLqetX0M" },
+          { artist: "Ed Sheeran", name: "Thinking Out Loud", youtubeId: "XMPgVZtADtQ" },
+          { artist: "Usher ft. Pitbull", name: "DJ Got Us Fallin' In Love", youtubeId: "xG4sH7jKvXE" },
+          { artist: "Olivia Rodrigo", name: "vampire", youtubeId: "QXsZ4zeSvwo" },
+          { artist: "Disney (Idina Menzel)", name: "Let It Go", youtubeId: "ImKzSpGXqOE" },
+          { artist: "Zedd feat. Foxes", name: "Clarity", youtubeId: "wpQ_R85VfJc" },
+          { artist: "The Chainsmokers", name: "Closer ft. Halsey", youtubeId: "PT2_F-1esPk" },
+          { artist: "The Chainsmokers", name: "Roses ft. ROZES", youtubeId: "mBZdHuZCfic" }
+        ];
+        }
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
         for (var n = 0, r = new Array(t); n < t; n++) r[n] = e[n];
