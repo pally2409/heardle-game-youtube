@@ -17785,7 +17785,7 @@
         }
         ];
         } else if (category == "taylorswift") {
-        [
+        Bt = [
           {
             artist: "Taylor Swift",
             name: "Blank Space",
@@ -17858,7 +17858,7 @@
           }
         ];
         } else if (category == "oldpop") {
-        [
+        Bt = [
           {
             artist: "Backstreet Boys",
             name: "I Want It That Way",
@@ -17936,7 +17936,7 @@
           }
         ];
         } else if (category == "newpop") {
-        [
+        Bt = [
           { artist: "Taylor Swift", name: "Blank Space", youtubeId: "gir8BEqAutk" },
           { artist: "Taylor Swift", name: "Cruel Summer", youtubeId: "ic8j13piAhQ" },
           { artist: "Stephen Sanchez", name: "Until I Found You", youtubeId: "GxldQ9eX2wo" },
