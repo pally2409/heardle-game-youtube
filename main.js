@@ -17679,9 +17679,112 @@
             artist: "Ed Sheeran",
             name: "Don't",
             youtubeId: "jUsWMGM-zHA",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Perfect",
+            youtubeId: "kPhpHvnnn0Q",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "The A Team",
+            youtubeId: "yJojXtTLFOU",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Photograph",
+            youtubeId: "HpphFd_mzXE",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Shivers",
+            youtubeId: "421wDCaaEqo",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Bad Habits",
+            youtubeId: "HeOpRzcqKrE",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Lego House",
+            youtubeId: "r9nkYIvl1c0",
+          },
+          {
+            artist: "Ed Sheeran",
+            name: "Happier",
+            youtubeId: "V8_XYeQeVP0",
           }
           ];
+        } else if (category == "bollywood") {
+          Bt = [
+        {
+          artist: "Akon",
+          name: "Chammak Challo",
+          youtubeId: "8Trs1qtSIU8",
+        },
+        {
+          artist: "Amar Arshi, Badshah, Neha Kakkar",
+          name: "Kala Chashma",
+          youtubeId: "4HmBGLRK69g",
+        },
+        {
+          artist: "Sonu Nigam, Alka Yagnik, Udit Narayan",
+          name: "Bole Chudiyan",
+          youtubeId: "cfi2Trletjw",
+        },
+        {
+          artist: "Shankar Mahadevan, Sunidhi Chauhan, Vishal Dadlani",
+          name: "Desi Girl",
+          youtubeId: "28Zsch1QjPI",
+        },
+        {
+          artist: "Arijit Singh",
+          name: "What Jhumka?",
+          youtubeId: "r-aqQqjUepQ",
+        },
+        {
+          artist: "Shankar-Ehsaan-Loy",
+          name: "Gallan Goodiyaan",
+          youtubeId: "DrVNt3utgWM",
+        },
+        {
+          artist: "Benny Dayal, Shefali Alvarez",
+          name: "Badtameez Dil",
+          youtubeId: "B9CGEsexO24",
+        },
+        {
+          artist: "Arijit Singh",
+          name: "Channa Mereya",
+          youtubeId: "S7tYeUBgGHU",
+        },
+        {
+          artist: "Arijit Singh, Harshdeep Kaur",
+          name: "Kabira",
+          youtubeId: "7jZwAl0ArQw",
+        },
+        {
+          artist: "B Praak, Jasleen Royal",
+          name: "Ranjha",
+          youtubeId: "UU-eUEt-tPg",
+        },
+        {
+          artist: "Mohit Chauhan",
+          name: "Tum Se Hi",
+          youtubeId: "ZyCazQV9hls",
+        },
+        {
+          artist: "Shaan, Vasundhara Das, Loy Mendonsa",
+          name: "It's The Time To Disco",
+          youtubeId: "mVyxrnzprBI",
+        },
+        {
+          artist: "Arijit Singh, Sunidhi Chauhan",
+          name: "Dilliwali Girlfriend",
+          youtubeId: "1cDoRqPnCXU",
         }
+      ];
+      }
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
         for (var n = 0, r = new Array(t); n < t; n++) r[n] = e[n];
